@@ -1,11 +1,17 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const Effect = () => {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
+  const id = useRef(0);
   useEffect(() => {
-    console.log(count1);
-  }, [count1, count2]);
+    id.current = setInterval(() => {
+      console.log(count1);
+    }, 1000);
+    return () => {
+      clearInterval(id.current);
+    };
+  }, [count1]);
   return (
     <div className="card">
       useEffect:
