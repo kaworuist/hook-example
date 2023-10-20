@@ -1,10 +1,10 @@
-# Vite + React
-
-This is a [Vite](https://vitejs.dev) project together with React.
-
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/codesandbox/codesandbox-template-vite-react/main)
-
-[Configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) `.codesandbox/tasks.json` has been added to optimize it for [CodeSandbox](https://codesandbox.io/dashboard).
+# Hook example
+This is repo of some React Hook examples
+- useState
+- useEffect
+- useRef
+- useMemo
+- useContext
 
 ## Resources
 
@@ -12,3 +12,8 @@ This is a [Vite](https://vitejs.dev) project together with React.
 - [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
 - [Vite — GitHub](https://github.com/vitejs/vite)
 - [Vite — Docs](https://vitejs.dev/guide/)
+
+## How to use
+
+- npm install
+- npm run dev
